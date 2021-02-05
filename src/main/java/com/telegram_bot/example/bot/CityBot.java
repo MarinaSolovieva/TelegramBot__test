@@ -3,8 +3,8 @@ package com.telegram_bot.example.bot;
 import com.telegram_bot.example.exception_handling.exceptions.NoSuchCityException;
 import com.telegram_bot.example.model.dto.CityResponseDTO;
 import com.telegram_bot.example.service.CityService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -12,11 +12,11 @@ import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import javax.annotation.PostConstruct;
+
 
 @Component
 public class CityBot extends TelegramLongPollingBot {
-    private static final Logger logger = LoggerFactory.getLogger(CityBot.class);
+    private static final Logger logger = LogManager.getLogger(CityBot.class);
 
     @Autowired
     private CityService cityService;
@@ -28,7 +28,7 @@ public class CityBot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        logger.info("message: {}, text: {}", update.getMessage().getChatId(), update.getMessage().getText());
+        logger.info("Start method onUpdateReceived with text = {}", update.getMessage().getText());
         String chatId = update.getMessage().getChatId().toString();
         try {
             execute(new SendMessage(chatId, loadCityDescription(update)));
@@ -45,11 +45,6 @@ public class CityBot extends TelegramLongPollingBot {
     @Override
     public String getBotToken() {
         return botToken;
-    }
-
-    @PostConstruct
-    public void start() {
-        logger.info("username: {}, token: {}", botUsername, botToken);
     }
 
     private String loadCityDescription(Update update) {

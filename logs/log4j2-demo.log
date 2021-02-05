@@ -1,0 +1,377 @@
+2021-02-05 21:33:49.902  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 3728 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 21:33:49.911  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 21:33:50.561  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 21:33:50.610  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2021-02-05 21:33:51.054  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 21:33:51.062  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:33:51.062  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 21:33:51.063  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 21:33:51.196  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 21:33:51.196  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1246 ms
+2021-02-05 21:33:51.337  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 21:33:51.514  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 21:33:51.562  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 21:33:51.620  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 21:33:51.756  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 21:33:51.878  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 21:33:52.338  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 21:33:52.347  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 21:33:52.770  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 21:33:52.857  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 21:33:53.481  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:33:53.507  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 21:33:53.520  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.942 seconds (JVM running for 5.583)
+2021-02-05 21:35:47.484  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 20476 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 21:35:47.492  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 21:35:48.080  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 21:35:48.133  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-02-05 21:35:48.531  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 21:35:48.539  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:35:48.539  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 21:35:48.540  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 21:35:48.658  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 21:35:48.659  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1133 ms
+2021-02-05 21:35:48.758  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 21:35:48.880  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 21:35:48.924  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 21:35:48.972  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 21:35:49.093  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 21:35:49.215  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 21:35:49.648  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 21:35:49.656  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 21:35:50.087  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 21:35:50.171  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 21:35:50.824  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:35:50.850  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 21:35:50.859  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.679 seconds (JVM running for 4.823)
+2021-02-05 21:36:00.692  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : text = при
+2021-02-05 21:36:09.676  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : text = привет
+2021-02-05 21:36:12.723  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : text = минск
+2021-02-05 21:37:29.246  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 27540 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 21:37:29.255  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 21:37:29.863  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 21:37:29.913  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2021-02-05 21:37:30.334  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 21:37:30.342  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:37:30.342  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 21:37:30.342  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 21:37:30.462  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 21:37:30.462  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2021-02-05 21:37:30.566  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 21:37:30.697  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 21:37:30.740  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 21:37:30.786  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 21:37:30.893  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 21:37:31.015  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 21:37:31.466  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 21:37:31.476  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 21:37:31.903  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 21:37:31.997  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 21:37:32.604  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:37:32.628  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 21:37:32.638  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.683 seconds (JVM running for 4.774)
+2021-02-05 21:37:51.100  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : text = минск
+2021-02-05 21:40:23.420  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 25680 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 21:40:23.429  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 21:40:24.035  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 21:40:24.086  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-02-05 21:40:24.495  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 21:40:24.502  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:40:24.503  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 21:40:24.503  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 21:40:24.619  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 21:40:24.620  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1139 ms
+2021-02-05 21:40:24.715  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 21:40:24.860  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 21:40:24.909  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 21:40:24.968  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 21:40:25.091  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 21:40:25.196  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 21:40:25.637  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 21:40:25.649  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 21:40:26.083  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 21:40:26.180  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 21:40:26.823  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:40:26.845  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 21:40:26.853  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.748 seconds (JVM running for 5.302)
+2021-02-05 21:43:34.164  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 11012 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 21:43:34.175  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 21:43:34.847  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 21:43:34.898  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-02-05 21:43:35.407  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 21:43:35.416  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:43:35.417  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 21:43:35.418  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 21:43:35.556  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 21:43:35.557  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2021-02-05 21:43:35.688  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 21:43:35.857  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 21:43:35.911  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 21:43:35.973  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 21:43:36.116  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 21:43:36.247  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 21:43:36.735  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 21:43:36.744  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 21:43:37.202  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 21:43:37.316  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 21:43:38.074  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 21:43:38.139  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 21:43:38.148  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 4.393 seconds (JVM running for 5.912)
+2021-02-05 21:44:43.543  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : text = Москва
+2021-02-05 21:44:43.548  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name =Москва
+2021-02-05 21:44:48.482  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : text = минск
+2021-02-05 21:44:48.482  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name =минск
+2021-02-05 23:07:39.918  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 14880 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:07:39.925  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:07:40.477  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:07:40.526  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:07:40.914  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:07:40.922  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:07:40.923  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:07:40.923  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:07:41.034  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:07:41.034  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1077 ms
+2021-02-05 23:07:41.141  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:07:41.268  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:07:41.329  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:07:41.407  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:07:41.536  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:07:41.643  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:07:42.129  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:07:42.140  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:07:42.619  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:07:42.701  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:07:43.354  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:07:43.386  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:07:43.393  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.767 seconds (JVM running for 5.143)
+2021-02-05 23:08:08.725  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Лондон
+2021-02-05 23:08:08.731  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Лондон
+2021-02-05 23:08:15.182  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Париж
+2021-02-05 23:08:15.183  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Париж
+2021-02-05 23:08:15.192  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Throw NoSuchCityException with name = Париж
+2021-02-05 23:10:08.745  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 21032 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:10:08.752  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:10:09.250  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:10:09.299  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:10:09.668  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:10:09.675  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:10:09.675  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:10:09.676  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:10:09.777  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:10:09.777  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
+2021-02-05 23:10:09.862  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:10:09.971  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:10:10.016  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:10:10.065  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:10:10.162  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:10:10.254  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:10:10.666  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:10:10.675  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:10:11.060  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:10:11.139  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:10:11.756  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:10:11.777  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:10:11.785  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.322 seconds (JVM running for 4.439)
+2021-02-05 23:10:17.527  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Минск
+2021-02-05 23:10:17.532  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Минск
+2021-02-05 23:10:17.792  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : End method findByName with name = Минск
+2021-02-05 23:10:21.748  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Нет
+2021-02-05 23:10:21.749  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Нет
+2021-02-05 23:10:21.757  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Throw NoSuchCityException with name = Нет
+2021-02-05 23:13:17.281  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 17444 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:13:17.288  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:13:17.822  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:13:17.869  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:13:18.249  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:13:18.256  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:13:18.257  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:13:18.257  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:13:18.360  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:13:18.360  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2021-02-05 23:13:18.445  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:13:18.555  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:13:18.599  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:13:18.647  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:13:18.748  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:13:18.839  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:13:19.250  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:13:19.258  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:13:19.643  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:13:19.719  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:13:20.328  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:13:20.353  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:13:20.361  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.362 seconds (JVM running for 4.469)
+2021-02-05 23:13:33.092  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Говно
+2021-02-05 23:13:33.097  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Говно
+2021-02-05 23:13:33.327  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Throw NoSuchCityException with name = Говно
+2021-02-05 23:14:33.057  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 23164 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:14:33.065  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:14:33.563  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:14:33.611  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:14:33.986  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:14:33.992  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:14:33.993  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:14:33.993  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:14:34.080  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:14:34.081  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2021-02-05 23:14:34.199  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:14:34.311  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:14:34.359  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:14:34.407  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:14:34.509  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:14:34.605  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:14:34.994  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:14:35.003  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:14:35.398  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:14:35.474  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:14:36.132  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:14:36.153  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:14:36.162  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.379 seconds (JVM running for 4.502)
+2021-02-05 23:14:43.984  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Какашка
+2021-02-05 23:14:43.988  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Какашка
+2021-02-05 23:14:44.248  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Нет города с таким названием = Какашка
+2021-02-05 23:17:23.259  INFO DESKTOP-409844N --- [nio-8081-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 23:17:23.259  INFO DESKTOP-409844N --- [nio-8081-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-05 23:17:23.260  INFO DESKTOP-409844N --- [nio-8081-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-02-05 23:17:23.289  INFO DESKTOP-409844N --- [nio-8081-exec-2] c.t.e.s.CityServiceImpl                  : Start method deleteById with id = 10
+2021-02-05 23:19:04.949  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 26656 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:19:04.956  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:19:05.469  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:19:05.515  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:19:05.902  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:19:05.910  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:19:05.910  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:19:05.910  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:19:06.015  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:19:06.015  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1021 ms
+2021-02-05 23:19:06.118  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:19:06.228  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:19:06.273  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:19:06.324  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:19:06.433  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:19:06.532  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:19:06.942  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:19:06.952  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:19:07.348  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:19:07.427  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:19:08.055  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:19:08.083  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:19:08.089  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.434 seconds (JVM running for 4.512)
+2021-02-05 23:19:22.191  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 23:19:22.191  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-05 23:19:22.193  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-02-05 23:19:22.227  INFO DESKTOP-409844N --- [nio-8081-exec-1] c.t.e.s.CityServiceImpl                  : Start method deleteById with id = 10
+2021-02-05 23:19:22.362  INFO DESKTOP-409844N --- [nio-8081-exec-1] c.t.e.s.CityServiceImpl                  : Невозможно удалить город с id, которого не существует = 10
+2021-02-05 23:22:33.186  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 19296 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:22:33.194  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:22:33.740  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:22:33.787  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:22:34.159  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:22:34.166  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:22:34.167  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:22:34.168  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:22:34.285  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:22:34.285  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1053 ms
+2021-02-05 23:22:34.422  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:22:34.552  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:22:34.602  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:22:34.665  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:22:34.770  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:22:34.862  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:22:35.320  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:22:35.329  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:22:35.735  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:22:35.811  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:22:36.534  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:22:36.558  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:22:36.566  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.672 seconds (JVM running for 4.905)
+2021-02-05 23:22:45.342  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 23:22:45.343  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-05 23:22:45.344  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-02-05 23:22:45.381  INFO DESKTOP-409844N --- [nio-8081-exec-1] c.t.e.s.CityServiceImpl                  : Start method save with name  = Барроу
+2021-02-05 23:22:45.492  INFO DESKTOP-409844N --- [nio-8081-exec-1] c.t.e.s.CityServiceImpl                  : Город с таким именем уже существует = Барроу
+2021-02-05 23:23:22.688  INFO DESKTOP-409844N --- [nio-8081-exec-4] c.t.e.s.CityServiceImpl                  : Start method save with name  = Париж
+2021-02-05 23:23:22.691  INFO DESKTOP-409844N --- [nio-8081-exec-4] c.t.e.s.CityServiceImpl                  : Длина описания не может быть больше 100 символов = 134
+2021-02-05 23:25:51.885  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 5196 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:25:51.895  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:25:52.452  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:25:52.498  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:25:52.949  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:25:52.957  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:25:52.957  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:25:52.958  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:25:53.085  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:25:53.085  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2021-02-05 23:25:53.183  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:25:53.302  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:25:53.341  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:25:53.397  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:25:53.499  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:25:53.593  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:25:54.042  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:25:54.050  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:25:54.454  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:25:54.534  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:25:55.216  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:25:55.240  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:25:55.247  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.714 seconds (JVM running for 5.213)
+2021-02-05 23:26:07.677  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 23:26:07.678  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-05 23:26:07.679  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-02-05 23:26:07.719  INFO DESKTOP-409844N --- [nio-8081-exec-1] c.t.e.s.CityServiceImpl                  : Start method update with name  = Барроу
+2021-02-05 23:26:07.719  INFO DESKTOP-409844N --- [nio-8081-exec-1] c.t.e.s.CityServiceImpl                  : Длина описания не может быть больше 100 символов = 112
+2021-02-05 23:31:24.542  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 14248 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:31:24.552  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:31:25.166  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:31:25.218  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:31:25.610  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:31:25.617  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:31:25.618  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:31:25.618  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:31:25.711  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:31:25.711  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1105 ms
+2021-02-05 23:31:25.797  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:31:25.918  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:31:25.963  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:31:26.025  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:31:26.123  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:31:26.218  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:31:26.626  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:31:26.635  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:31:27.045  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:31:27.127  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:31:27.729  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:31:27.753  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:31:27.760  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.521 seconds (JVM running for 4.622)
+2021-02-05 23:31:57.197  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Говно
+2021-02-05 23:31:57.200  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Говно
+2021-02-05 23:31:57.348  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Нет города с таким названием = Говно
+2021-02-05 23:34:11.398  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Starting TelegramBotApplication using Java 14.0.1 on DESKTOP-409844N with PID 19564 (C:\Users\Xiaomi\IdeaProjects\spring_bot\target\classes started by Xiaomi in C:\Users\Xiaomi\IdeaProjects\spring_bot)
+2021-02-05 23:34:11.405  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : No active profile set, falling back to default profiles: default
+2021-02-05 23:34:11.919  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-05 23:34:11.965  INFO DESKTOP-409844N --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-02-05 23:34:12.333  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-02-05 23:34:12.340  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:34:12.341  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-05 23:34:12.341  INFO DESKTOP-409844N --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 23:34:12.428  INFO DESKTOP-409844N --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-05 23:34:12.428  INFO DESKTOP-409844N --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 993 ms
+2021-02-05 23:34:12.529  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-05 23:34:12.650  INFO DESKTOP-409844N --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-05 23:34:12.719  INFO DESKTOP-409844N --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 23:34:12.800  INFO DESKTOP-409844N --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-05 23:34:12.894  INFO DESKTOP-409844N --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 23:34:12.987  INFO DESKTOP-409844N --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-05 23:34:13.394  INFO DESKTOP-409844N --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 23:34:13.403  INFO DESKTOP-409844N --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-05 23:34:13.831  WARN DESKTOP-409844N --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-05 23:34:13.907  INFO DESKTOP-409844N --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:34:14.535  INFO DESKTOP-409844N --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2021-02-05 23:34:14.556  INFO DESKTOP-409844N --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-05 23:34:14.563  INFO DESKTOP-409844N --- [           main] c.t.e.TelegramBotApplication             : Started TelegramBotApplication in 3.463 seconds (JVM running for 4.608)
+2021-02-05 23:34:17.275  INFO DESKTOP-409844N --- [legram Executor] c.t.e.b.CityBot                          : Start method onUpdateReceived with text = Говно
+2021-02-05 23:34:17.279  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Start method findByName with name = Говно
+2021-02-05 23:34:17.434  INFO DESKTOP-409844N --- [legram Executor] c.t.e.s.CityServiceImpl                  : Нет города с таким названием = Говно
+2021-02-05 23:46:39.181  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 23:46:39.181  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-05 23:46:39.183  INFO DESKTOP-409844N --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms

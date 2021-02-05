@@ -7,19 +7,25 @@ import com.telegram_bot.example.exception_handling.exceptions.NoSuchIdException;
 import com.telegram_bot.example.exception_handling.exceptions.TooLongDescriptionException;
 import com.telegram_bot.example.model.dto.CityResponseDTO;
 import com.telegram_bot.example.model.entity.City;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class CityServiceImpl implements CityService {
 
+    private static final Logger logger = LogManager.getLogger(CityServiceImpl.class);
+
     @Autowired
     private CityRepository cityRepository;
 
     @Override
     public CityResponseDTO findByName(String name) {
+        logger.info("Start method findByName with name = {}", name);
         City city = cityRepository.findCityByName(name);
         if (city == null) {
+            logger.info("Нет города с таким названием = {}", name);
             throw new NoSuchCityException("Города с таким названием в базе нет");
         }
         return toCityResponseDTO(city);
@@ -27,7 +33,9 @@ public class CityServiceImpl implements CityService {
 
     @Override
     public void deleteById(int id) {
+        logger.info("Start method deleteById with id = {}", id);
         if (!cityRepository.existsById(id)) {
+            logger.info("Невозможно удалить город с id, которого не существует = {}", id);
             throw new NoSuchIdException("Города с  id = " + id + " не существует!");
         }
         cityRepository.deleteById(id);
@@ -35,10 +43,13 @@ public class CityServiceImpl implements CityService {
 
     @Override
     public CityResponseDTO save(City city) {
+        logger.info("Start method save with name  = {}", city.getName());
         if (cityRepository.existsByName(city.getName())) {
+            logger.info("Город с таким именем уже существует = {}", city.getName());
             throw new EqualCityNameException("Город с названием " + city.getName() + " уже существует!");
         }
         if (city.getDescription().length() > 100) {
+            logger.info("Длина описания не может быть больше 100 символов = {}", city.getDescription().length());
             throw new TooLongDescriptionException("Поле description может содержать не более 100 символов");
         }
         return toCityResponseDTO(cityRepository.save(city));
@@ -46,7 +57,9 @@ public class CityServiceImpl implements CityService {
 
     @Override
     public CityResponseDTO update(City city) {
+        logger.info("Start method update with name  = {}", city.getName());
         if (city.getDescription().length() > 100) {
+            logger.info("Длина описания не может быть больше 100 символов = {}", city.getDescription().length());
             throw new TooLongDescriptionException("Поле description может содержать не более 100 символов");
         }
         return toCityResponseDTO(cityRepository.save(city));
