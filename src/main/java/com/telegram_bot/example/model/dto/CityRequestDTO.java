@@ -2,8 +2,8 @@ package com.telegram_bot.example.model.dto;
 
 public class CityRequestDTO {
 
-    private String name;
-    private String description;
+    private final String name;
+    private final String description;
 
     public CityRequestDTO(String name, String description) {
         this.name = name;

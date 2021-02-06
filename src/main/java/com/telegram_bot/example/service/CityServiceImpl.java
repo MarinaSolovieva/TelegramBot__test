@@ -1,10 +1,10 @@
 package com.telegram_bot.example.service;
 
 import com.telegram_bot.example.dao.CityRepository;
-import com.telegram_bot.example.exception_handling.exceptions.EqualCityNameException;
-import com.telegram_bot.example.exception_handling.exceptions.NoSuchCityException;
-import com.telegram_bot.example.exception_handling.exceptions.NoSuchIdException;
-import com.telegram_bot.example.exception_handling.exceptions.TooLongDescriptionException;
+import com.telegram_bot.example.exception_handling.exception.EqualCityNameException;
+import com.telegram_bot.example.exception_handling.exception.NoSuchCityException;
+import com.telegram_bot.example.exception_handling.exception.NoSuchIdException;
+import com.telegram_bot.example.exception_handling.exception.TooLongDescriptionException;
 import com.telegram_bot.example.model.dto.CityResponseDTO;
 import com.telegram_bot.example.model.entity.City;
 import org.apache.logging.log4j.LogManager;
@@ -17,8 +17,12 @@ public class CityServiceImpl implements CityService {
 
     private static final Logger logger = LogManager.getLogger(CityServiceImpl.class);
 
+    private final CityRepository cityRepository;
+
     @Autowired
-    private CityRepository cityRepository;
+    public CityServiceImpl(CityRepository cityRepository) {
+        this.cityRepository = cityRepository;
+    }
 
     @Override
     public CityResponseDTO findByName(String name) {
@@ -32,7 +36,7 @@ public class CityServiceImpl implements CityService {
     }
 
     @Override
-    public void deleteById(int id) {
+    public void deleteById(long id) {
         logger.info("Start method deleteById with id = {}", id);
         if (!cityRepository.existsById(id)) {
             logger.info("Невозможно удалить город с id, которого не существует = {}", id);

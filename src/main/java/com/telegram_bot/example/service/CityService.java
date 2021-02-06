@@ -5,11 +5,11 @@ import com.telegram_bot.example.model.entity.City;
 
 public interface CityService {
 
-    public CityResponseDTO findByName(String name);
+    CityResponseDTO findByName(String name);
 
-    public void deleteById(int id);
+    void deleteById(long id);
 
-    public CityResponseDTO save(City city);
+    CityResponseDTO save(City city);
 
-    public CityResponseDTO update(City city);
+    CityResponseDTO update(City city);
 }

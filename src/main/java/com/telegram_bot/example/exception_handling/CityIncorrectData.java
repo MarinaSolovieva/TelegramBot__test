@@ -1,4 +1,4 @@
-package com.telegram_bot.example.exception_handling.exceptions;
+package com.telegram_bot.example.exception_handling;
 
 public class CityIncorrectData {
 

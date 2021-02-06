@@ -6,15 +6,26 @@ import com.telegram_bot.example.model.entity.City;
 import com.telegram_bot.example.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/cities")
 public class CityController {
 
+    private final CityService cityService;
+
     @Autowired
-    private CityService cityService;
+    public CityController(CityService cityService) {
+        this.cityService = cityService;
+    }
 
     @GetMapping("")
     public CityResponseDTO getCityByName(@RequestParam String name) {
@@ -22,7 +33,7 @@ public class CityController {
     }
 
     @DeleteMapping("/{id}")
-    public String deleteCityById(@PathVariable int id) {
+    public String deleteCityById(@PathVariable long id) {
         cityService.deleteById(id);
         return "Город с id " + id + " был удален из базы данныx";
     }
@@ -33,7 +44,7 @@ public class CityController {
     }
 
     @PutMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public CityResponseDTO updateCity(@PathVariable int id, @RequestBody CityRequestDTO cityRequestDTO) {
+    public CityResponseDTO updateCity(@PathVariable long id, @RequestBody CityRequestDTO cityRequestDTO) {
         City city = toCityEntity(cityRequestDTO);
         city.setId(id);
         return cityService.update(city);

@@ -3,10 +3,11 @@ package com.telegram_bot.example.dao;
 import com.telegram_bot.example.model.entity.City;
 import org.springframework.data.repository.CrudRepository;
 
-public interface CityRepository extends CrudRepository<City, Integer> {
-    public City findCityByName(String name);
+public interface CityRepository extends CrudRepository<City, Long> {
 
-    public boolean existsById(int id);
+    City findCityByName(String name);
 
-    public boolean existsByName(String name);
+    boolean existsById(long id);
+
+    boolean existsByName(String name);
 }

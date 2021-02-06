@@ -1,6 +1,6 @@
 package com.telegram_bot.example.bot;
 
-import com.telegram_bot.example.exception_handling.exceptions.NoSuchCityException;
+import com.telegram_bot.example.exception_handling.exception.NoSuchCityException;
 import com.telegram_bot.example.model.dto.CityResponseDTO;
 import com.telegram_bot.example.service.CityService;
 import org.apache.logging.log4j.LogManager;
@@ -18,22 +18,27 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 public class CityBot extends TelegramLongPollingBot {
     private static final Logger logger = LogManager.getLogger(CityBot.class);
 
-    @Autowired
-    private CityService cityService;
+    private final CityService cityService;
+    private final String botUsername;
+    private final String botToken;
 
-    @Value("${telegrambot.userName}")
-    private String botUsername;
-    @Value("${telegrambot.botToken}")
-    private String botToken;
+    @Autowired
+    public CityBot(CityService cityService,
+                   @Value("${telegram.bot.userName}") String botUsername,
+                   @Value("${telegram.bot.botToken}") String botToken) {
+        this.cityService = cityService;
+        this.botUsername = botUsername;
+        this.botToken = botToken;
+    }
 
     @Override
     public void onUpdateReceived(Update update) {
         logger.info("Start method onUpdateReceived with text = {}", update.getMessage().getText());
-        String chatId = update.getMessage().getChatId().toString();
+        final String chatId = update.getMessage().getChatId().toString();
         try {
             execute(new SendMessage(chatId, loadCityDescription(update)));
         } catch (TelegramApiException e) {
-            logger.error("Exception during loading city desciprtion", e);
+            logger.error("Exception during loading city description", e);
         }
     }
 
