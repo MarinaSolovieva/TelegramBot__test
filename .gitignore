@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+.gitignore
 
 ### STS ###
 .apt_generated
@@ -10,7 +11,7 @@ target/
 .factorypath
 .project
 .settings
-.springBeans
+.sprigBeans
 .sts4-cache
 
 ### IntelliJ IDEA ###
