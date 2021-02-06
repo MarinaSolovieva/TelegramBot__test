@@ -2,7 +2,7 @@
 
 ##### 1. Main class is TelegramBotApplication.
 
-##### 2. Instruction for creation test database exists in DDL.sql and DML.sql files.
+##### 2. Usage database MySQl. Instruction for creation test database exists in DDL.sql and DML.sql files.
 
 ##### 3. Telegram bot settings: 
     - name: Travel_bot
