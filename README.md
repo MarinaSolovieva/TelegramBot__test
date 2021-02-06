@@ -14,7 +14,7 @@
 #### 5. You can use postman_collection.json to load CRUD api request for testing in Postman.
 
 #### 6. Examples of using rest api:
-    - Get: curl --location --request GET 'http://localhost:8081/cities?name=%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0'
+    - Read: curl --location --request GET 'http://localhost:8081/cities?name=%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0'
     
     - Create: curl --location --request POST 'http://localhost:8081/cities' \
               --header 'Content-Type: application/json' \
